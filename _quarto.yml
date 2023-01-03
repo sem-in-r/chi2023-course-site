@@ -17,7 +17,7 @@ website:
           - soumya.qmd
   repo-url: https://github.com/sem-in-r/chi2023-course-site
   repo-actions: [edit, issue]
-  twitter-card: true
+#  twitter-card: true
 
 format:
   html:
