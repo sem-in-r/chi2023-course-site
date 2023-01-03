@@ -1,0 +1,20 @@
+---
+title: "Course Instructors"
+---
+
+## About the instructors
+The instructors include key authors, maintainers, and contributors of the SEMinR package 
+André Calero Valdez is Professor for human-computer interaction and usable safety
+engineering in the University of Lübeck. 
+He uses structural equation modeling to identify antecedents of user
+behavior in safety critical applications and ehealth applications.
+
+Lilian Kojan is a PhD candidate at the University of Lübeck and extensively uses 
+structural equation modeling to understand the impact of trust and communication
+on human behavior in topics such as the Covid-19 pandemic or climate change.
+
+Nicholas Danks is a Professor of Business Analytics at Trinity Business School at Trinity College Dublin and one of the maintainers of the SEMinR package.
+
+Soumya Ray is a Distinguished Professor of Service Science at the National Tsing
+Hua University. He both applies structural equation modeling in empirical research 
+and develops new methodologies around structural equation modeling.

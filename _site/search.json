@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "chi2023-course-site",
+    "title": "Structural Equation Modeling in HCI Research using SEMinR",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to the course website for the SEM in HCI course at CHI 2023.\nThe course will be held virtually on April 18th from 3pm CET (when in my timezone?) until 8pm CET."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#instructors",
+    "href": "index.html#instructors",
+    "title": "Structural Equation Modeling in HCI Research using SEMinR",
+    "section": "Instructors",
+    "text": "Instructors\nThe course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray."
+  },
+  {
+    "objectID": "index.html#what-is-sem",
+    "href": "index.html#what-is-sem",
+    "title": "Structural Equation Modeling in HCI Research using SEMinR",
+    "section": "What is SEM?",
+    "text": "What is SEM?\nMore information on the course will follow soon."
+  },
+  {
+    "objectID": "index.html#register",
+    "href": "index.html#register",
+    "title": "Structural Equation Modeling in HCI Research using SEMinR",
+    "section": "Register",
+    "text": "Register"
   }
 ]

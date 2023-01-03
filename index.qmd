@@ -1,11 +1,17 @@
 ---
-title: "chi2023-course-site"
+title: "Structural Equation Modeling in HCI Research using SEMinR"
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome to the course website for the SEM in HCI course at CHI 2023.\
 
-```{r}
-1 + 1
-```
+The course will be held virtually on April 18th from 3pm CET ([when in my timezone?](https://time.is/compare/1500_18_Apr_2023_in_Hamburg)) until 8pm CET.
+
+## Instructors
+The course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray.
+
+## What is SEM?
+
+More information on the course will follow soon.
+
+## Register
