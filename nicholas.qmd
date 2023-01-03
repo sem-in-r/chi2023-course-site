@@ -1,0 +1,16 @@
+---
+title: "Nicholas Danks"
+about:
+  template: trestles
+  image: img/nick.png
+  links:
+    - icon: mortarboard
+      text: Scholar
+      href: https://scholar.google.com/citations?user=D7nnR8gAAAAJ&hl=en&oi=ao
+    - icon: github
+      text: Github
+      href: https://github.com/NicholasDanks
+---
+
+**Nicholas Danks** is a Professor of Business Analytics at Trinity Business School at Trinity College Dublin and one of the maintainers of the SEMinR package.
+

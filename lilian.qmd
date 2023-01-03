@@ -1,0 +1,23 @@
+---
+title: "Lilian Kojan"
+about:
+  template: trestles
+  image: img/lilian.jpg
+  links:
+    - icon: mortarboard
+      text: Scholar
+      href: https://scholar.google.com/citations?user=sZxet08AAAAJ
+    - icon: github
+      text: Github
+      href: https://github.com/lilikon
+---
+
+**Lilian Kojan** is a PhD candidate at the [University of Lübeck](http://www.imis.uni-luebeck.de) and extensively uses 
+structural equation modeling to understand the impact of trust and communication
+on human behavior in topics such as the Covid-19 pandemic or climate change.
+
+<!--
+## Education
+
+RWTH Aachen University \| Aachen, Germany, Diplom (Masters) in Technical Communication \| Oct 2001 - Sept 2008
+-->

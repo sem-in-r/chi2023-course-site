@@ -3,11 +3,21 @@ project:
 
 website:
   title: "SEM in HCI Research using SEMinR"
+#  sidebar:
+#    contents: auto
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - instructors.qmd
+      - text: Course instructors
+        menu:
+          - andre.qmd
+          - lilian.qmd
+          - nicholas.qmd
+          - soumya.qmd
+  repo-url: https://github.com/sem-in-r/chi2023-course-site
+  repo-actions: [edit, issue]
+  twitter-card: true
 
 format:
   html:

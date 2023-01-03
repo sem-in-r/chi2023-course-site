@@ -2,16 +2,29 @@
 title: "Structural Equation Modeling in HCI Research using SEMinR"
 ---
 
-
+## A CHI 2023 Course
 Welcome to the course website for the SEM in HCI course at CHI 2023.\
 
 The course will be held virtually on April 18th from 3pm CET ([when in my timezone?](https://time.is/compare/1500_18_Apr_2023_in_Hamburg)) until 8pm CET.
 
-## Instructors
-The course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray.
+::: {.callout-note}
+This page is still under construction.
+:::
 
-## What is SEM?
+## SEM in HCI
 
-More information on the course will follow soon.
+### What is SEM?
+
+You have probably seen research papers using path models such as this:
+
+![Fig. 1: A basic model](/img/model_pls.png)
+
+### Why SEMinR
+For more information go to [this page](/whyseminr.html)
+
+### Instructors
+The course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray. 
+The instructors include key authors, maintainers, and contributors of the SEMinR package. For more details go [here](/instructors.html).
+
 
 ## Register

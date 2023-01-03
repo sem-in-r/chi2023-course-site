@@ -1,0 +1,26 @@
+---
+title: "Why SEMinR"
+---
+
+SEMinR is an R package designed to make structural equation models (SEM) approachable to practitioners across disciplines. 
+It is an *open-source* and *free* tool that practitioners can use immediately with minimal setup.
+SEMinR's syntax offers a domain-specific language to define structural equation models using R syntax. 
+The syntax is designed with the needs and knowledge of SEM practitioners foremost in mind.
+While we focus on partial least squares structural equation modelling (PLS-SEM) in this tutorial, SEMinR also includes covariance-based SEMs and covariance-based confirmatory factor analysis.
+SEMinR has functions named after the major features of a SEM model.
+For example, consider a PLS-SEM model that has several *composite* or *reflective*  *constructs* that are measured by *multiple items* (e.g., survey questions), with causal *paths* *from* a certain set of constructs *to* others. 
+The syntax for this model might look like this:
+
+```r
+measurements <- constructs(
+  reflective("Image",      multi_items("IMAG", 1:5)),
+  composite("Expectation", multi_items("CUEX", 1:3)),
+  composite("Loyalty", 	   multi_items("CUSL", 1:3), weights = mode_B),
+  composite("Complaints",  single_item("CUSCO")))
+
+structure <- relationships(
+  paths(from = c("Image", "Expectation"), to = c("Complaints", "Loyalty"))
+```
+
+Comparing our description of the model to the syntax, we can see that the functions we use correspond to the nomenclature of SEM models that practitioners use: the measurement model is defined using functions called `constructs()`, `reflective()`, `composite()`, and `multi_items()`; and the structural model is defined by functions using `relationships()`, and `paths()`. 
+This makes SEMinR's syntax highly readable and interpretable to new and expert SEM practitioners alike.

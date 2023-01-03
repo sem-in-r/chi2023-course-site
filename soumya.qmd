@@ -1,0 +1,17 @@
+---
+title: "Soumya Ray"
+about:
+  template: trestles
+  image: img/soumya.png
+  links:
+    - icon: mortarboard
+      text: Scholar
+      href: https://scholar.google.com/citations?user=6WjiSOwAAAAJ
+    - icon: github
+      text: Github
+      href: https://github.com/soumyaray
+---
+**Soumya Ray** is a Distinguished Professor of Service Science at the National Tsing
+Hua University. He both applies structural equation modeling in empirical research 
+and develops new methodologies around structural equation modeling.
+
