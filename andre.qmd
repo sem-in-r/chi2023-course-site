@@ -12,7 +12,7 @@ about:
       href: https://github.com/sumidu
 ---
 
-**André Calero Valdez** is Professor for human-computer interaction and usable safety engineering at the [University of Lübeck](http://www.imis.uni-luebeck.de). He uses structural equation modeling to identify antecedents of user behavior in safety critical applications and ehealth applications.
+**André Calero Valdez** is a Professor for Human-Computer Interaction and Usable Safety Engineering at the [University of Lübeck](http://www.imis.uni-luebeck.de). He uses structural equation modeling to identify antecedents of user behavior in safety critical applications and ehealth applications.
 
 ## Education
 

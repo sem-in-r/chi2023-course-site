@@ -2,25 +2,26 @@
 title: "Structural Equation Modeling in HCI Research using SEMinR"
 ---
 
-## A CHI 2023 Course
-Welcome to the course website for the SEM in HCI course at CHI 2023.\
-
-The course will be held virtually on April 18th from 3pm CET ([when in my timezone?](https://time.is/compare/1500_18_Apr_2023_in_Hamburg)) until 8pm CET.
-
 ::: {.callout-note}
 This page is still under construction.
-:::
+::: 
+
+## A CHI 2023 Course
+Welcome to the course website for the SEM in HCI course at CHI 2023.
+The course will be held virtually on April 18th from 3pm CET ([when in my timezone?](https://time.is/compare/1500_18_Apr_2023_in_Hamburg)) until 8pm CET.
+
 
 ## SEM in HCI
+This course is an introduction to PLS-SEM for HCI researchers and practitioners that are interested in a streamlined and robust way to work with human data.
+PLS-SEM will be taught using the open-source [SEMinR](https://sem-in-r.github.io/) R package.
+We will lay out why PLS-SEM might be interesting for your research and how to construct and test a model in SEMinR. Click [here](/coursedetails.html) for more details.
 
-### What is SEM?
+### Why PLS-SEM?
+PLS-SEM or *partial least squares structural equation modelling* is a powerful method to build and test models for your data.
+This method allows the researcher to simultaneously test the validity of their measurement instrument (e.g., the survey) and the relationship between model variables, e.g., perceptions, attitudes, and behavior.
+A further advantage is that PLS-SEM is comparatively robust to small samples and non-parametric data, both issues that often occur in HCI research.
+Click [here](/whyseminr.html) for more details.
 
-You have probably seen research papers using path models such as this:
-
-![Fig. 1: A basic model](/img/model_pls.png)
-
-### Why SEMinR
-For more information go to [this page](/whyseminr.html)
 
 ### Instructors
 The course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray. 

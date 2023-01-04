@@ -1,14 +1,17 @@
 project:
   type: website
-
+bibliography: bibliography.bib
 website:
   title: "SEM in HCI Research using SEMinR"
+  
 #  sidebar:
 #    contents: auto
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: coursedetails.html
+        text: Details
       - text: Course instructors
         menu:
           - andre.qmd

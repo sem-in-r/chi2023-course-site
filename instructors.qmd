@@ -1,0 +1,15 @@
+---
+title: "Course Instructors"
+---
+Your instructors include key authors, maintainers, and contributors of the SEMinR package [@ray2021seminr]. 
+Click on the names to find out more.
+
+#### Instructors
+
+[André Calero Valdez](/andre.html) is a Professor for Human-Computer Interaction and Usable Safety Engineering at the University of Lübeck. 
+
+[Lilian Kojan](/lilian.html) is a PhD candidate at the University of Lübeck.
+
+[Nicholas Danks](/nicholas.html) is a Professor of Business Analytics at Trinity Business School at Trinity College Dublin.
+
+[Soumya Ray](/soumya.html) is a Distinguished Professor of Service Science at the National Tsing Hua University.

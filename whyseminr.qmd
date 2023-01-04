@@ -2,6 +2,11 @@
 title: "Why SEMinR"
 ---
 
+What is the result of a PLS-SEM analysis? You have probably seen research papers using path models such as the followng. These are the outputs of structural equation modeling and can be generated using SEMinR.
+
+![Fig. 1: A basic model](/img/model_pls.png)
+
+
 SEMinR is an R package designed to make structural equation models (SEM) approachable to practitioners across disciplines. 
 It is an *open-source* and *free* tool that practitioners can use immediately with minimal setup.
 SEMinR's syntax offers a domain-specific language to define structural equation models using R syntax. 
