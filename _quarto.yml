@@ -10,6 +10,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: whyseminr.html
+        text: Why SEM?
       - href: coursedetails.html
         text: Details
       - text: Course instructors
