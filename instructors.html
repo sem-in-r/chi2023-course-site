@@ -20,6 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -61,9 +80,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="SEM in HCI Research using SEMinR - Course Instructors">
-<meta name="twitter:description" content="The course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray. The instructors include key authors, maintainers, and contributors of the SEMinR package.">
-<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -87,9 +103,32 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./instructors.html" aria-current="page">
- <span class="menu-text">Course Instructors</span></a>
+    <a class="nav-link" href="./coursedetails.html">
+ <span class="menu-text">Details</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-course-instructors" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Course instructors</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-course-instructors">    
+        <li>
+    <a class="dropdown-item" href="./andre.html">
+ <span class="dropdown-text">André Calero Valdez</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lilian.html">
+ <span class="dropdown-text">Lilian Kojan</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./nicholas.html">
+ <span class="dropdown-text">Nicholas Danks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./soumya.html">
+ <span class="dropdown-text">Soumya Ray</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
@@ -101,16 +140,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#andré-calero-valdez" id="toc-andré-calero-valdez" class="nav-link active" data-scroll-target="#andré-calero-valdez">André Calero Valdez</a></li>
-  <li><a href="#lilian-kojan" id="toc-lilian-kojan" class="nav-link" data-scroll-target="#lilian-kojan">Lilian Kojan</a></li>
-  <li><a href="#nicholas-danks" id="toc-nicholas-danks" class="nav-link" data-scroll-target="#nicholas-danks">Nicholas Danks</a></li>
-  <li><a href="#soumya-ray" id="toc-soumya-ray" class="nav-link" data-scroll-target="#soumya-ray">Soumya Ray</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/sem-in-r/chi2023-course-site/edit/main/instructors.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/sem-in-r/chi2023-course-site/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -132,27 +162,23 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray. The instructors include key authors, maintainers, and contributors of the SEMinR package.</p>
-<section id="andré-calero-valdez" class="level2">
-<h2 class="anchored" data-anchor-id="andré-calero-valdez">André Calero Valdez</h2>
-<p><img src="./img/andre.jpg" class="img-fluid" alt="Photo of André"> André Calero Valdez is Professor for human-computer interaction and usable safety engineering in the University of Lübeck. He uses structural equation modeling to identify antecedents of user behavior in safety critical applications and ehealth applications.</p>
-</section>
-<section id="lilian-kojan" class="level2">
-<h2 class="anchored" data-anchor-id="lilian-kojan">Lilian Kojan</h2>
-<p>Lilian Kojan is a PhD candidate at the University of Lübeck and extensively uses structural equation modeling to understand the impact of trust and communication on human behavior in topics such as the Covid-19 pandemic or climate change.</p>
-</section>
-<section id="nicholas-danks" class="level2">
-<h2 class="anchored" data-anchor-id="nicholas-danks">Nicholas Danks</h2>
-<p>Nicholas Danks is a Professor of Business Analytics at Trinity Business School at Trinity College Dublin and one of the maintainers of the SEMinR package.</p>
-</section>
-<section id="soumya-ray" class="level2">
-<h2 class="anchored" data-anchor-id="soumya-ray">Soumya Ray</h2>
-<p>Soumya Ray is a Distinguished Professor of Service Science at the National Tsing Hua University. He both applies structural equation modeling in empirical research and develops new methodologies around structural equation modeling.</p>
+<p>Your instructors include key authors, maintainers, and contributors of the SEMinR package <span class="citation" data-cites="ray2021seminr">(<a href="#ref-ray2021seminr" role="doc-biblioref">Ray, Danks, and Calero Valdez 2021</a>)</span>. Click on the names to find out more.</p>
+<section id="instructors" class="level4">
+<h4 class="anchored" data-anchor-id="instructors">Instructors</h4>
+<p><a href="./andre.html">André Calero Valdez</a> is a Professor for Human-Computer Interaction and Usable Safety Engineering at the University of Lübeck.</p>
+<p><a href="./lilian.html">Lilian Kojan</a> is a PhD candidate at the University of Lübeck.</p>
+<p><a href="./nicholas.html">Nicholas Danks</a> is a Professor of Business Analytics at Trinity Business School at Trinity College Dublin.</p>
+<p><a href="./soumya.html">Soumya Ray</a> is a Distinguished Professor of Service Science at the National Tsing Hua University.</p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-ray2021seminr" class="csl-entry" role="doc-biblioentry">
+Ray, Soumya, Nicholas Danks, and André Calero Valdez. 2021. <span>“SEMinR: Domain-Specific Language for Building, Estimating, and Visualizing Structural Equation Models in r.”</span> <em>Estimating, and Visualizing Structural Equation Models in R (August 6, 2021)</em>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

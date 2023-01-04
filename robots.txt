@@ -1,1 +1,1 @@
-Sitemap: https://sem-in-r.github.io/chi2023-course-site/sitemap.xml
+Sitemap: https://github.com/sem-in-r/chi2023-course-site/sitemap.xml
