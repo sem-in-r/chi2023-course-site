@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SEM in HCI Research using SEMinR - Why SEMinR</title>
+<title>SEM in HCI Research using SEMinR - Why PLS-SEM and SEMinR?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,6 +83,25 @@ code span.st { color: #4070a0; } /* String */
 code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -147,6 +166,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./whyseminr.html" aria-current="page">
+ <span class="menu-text">Why SEM?</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./coursedetails.html">
  <span class="menu-text">Details</span></a>
   </li>  
@@ -184,14 +207,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hci-research-is-about-latent-variables---so-is-pls-sem" id="toc-hci-research-is-about-latent-variables---so-is-pls-sem" class="nav-link active" data-scroll-target="#hci-research-is-about-latent-variables---so-is-pls-sem">HCI research is about latent variables - so is PLS-SEM</a></li>
+  <li><a href="#pls-sem-can-be-used-for-this-inference" id="toc-pls-sem-can-be-used-for-this-inference" class="nav-link" data-scroll-target="#pls-sem-can-be-used-for-this-inference">PLS-SEM can be used for this inference</a></li>
+  <li><a href="#the-role-of-seminr-in-this-process" id="toc-the-role-of-seminr-in-this-process" class="nav-link" data-scroll-target="#the-role-of-seminr-in-this-process">The role of SEMinR in this process</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/sem-in-r/chi2023-course-site/edit/main/whyseminr.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/sem-in-r/chi2023-course-site/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Why SEMinR</h1>
+<h1 class="title">Why PLS-SEM and SEMinR?</h1>
 </div>
 
 
@@ -206,6 +237,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
+<section id="hci-research-is-about-latent-variables---so-is-pls-sem" class="level3">
+<h3 class="anchored" data-anchor-id="hci-research-is-about-latent-variables---so-is-pls-sem">HCI research is about latent variables - so is PLS-SEM</h3>
+<p>HCI research is heavily informed by behavioural research and applied psychology. It often focuses on the traits, beliefs, and perceptions of the examined individuals. These are so-called <strong>latent variables</strong> which means that they cannot be directly observed or measured. Rather, they must be <em>inferred</em> or measured indirectly using measurable or observable variables.</p>
+<p>Variables that cannot be measured directly are especially common in HCI research conducted on humans. For example, <em>self-efficacy</em> is a concept used a lot throughout psychology and HCI. It refers to an individual’s belief in their own capabilities to perform a certain action and reach certain goals <span class="citation" data-cites="bandura2006guide">(<a href="#ref-bandura2006guide" role="doc-biblioref">Bandura et al. 2006</a>)</span>. This belief is a latent variable or latent construct. It cannot be measured directly but must be inferred from (or operationalized through) survey items that measure the manifest symptoms of self-efficacy <span class="citation" data-cites="bandura2006guide">(<a href="#ref-bandura2006guide" role="doc-biblioref">Bandura et al. 2006</a>)</span>.</p>
+</section>
+<section id="pls-sem-can-be-used-for-this-inference" class="level3">
+<h3 class="anchored" data-anchor-id="pls-sem-can-be-used-for-this-inference">PLS-SEM can be used for this inference</h3>
+<p>Empirical research in HCI requires rigorous, and versatile methods that can incorporate not only observable variables, but also latent variables, and design variables. PLS-SEM is uniquely placed to meet this requirement in that it can simultaneously estimate how these latent variables are constructed from their indicators, and how the variables relate to each other, therefore producing consistent and unbiased results <span class="citation" data-cites="hair2011pls">(<a href="#ref-hair2011pls" role="doc-biblioref">Hair, Ringle, and Sarstedt 2011</a>)</span>. The dual explanatory and predictive nature of PLS-SEM makes it relevant not only to scientific researchers but also to practitioners interested in predictive modelling.</p>
 <p>What is the result of a PLS-SEM analysis? You have probably seen research papers using path models such as the followng. These are the outputs of structural equation modeling and can be generated using SEMinR.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -213,6 +252,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p></p><figcaption class="figure-caption">Fig. 1: A basic model</figcaption><p></p>
 </figure>
 </div>
+</section>
+<section id="the-role-of-seminr-in-this-process" class="level3">
+<h3 class="anchored" data-anchor-id="the-role-of-seminr-in-this-process">The role of SEMinR in this process</h3>
 <p>SEMinR is an R package designed to make structural equation models (SEM) approachable to practitioners across disciplines. It is an <em>open-source</em> and <em>free</em> tool that practitioners can use immediately with minimal setup. SEMinR’s syntax offers a domain-specific language to define structural equation models using R syntax. The syntax is designed with the needs and knowledge of SEM practitioners foremost in mind. While we focus on partial least squares structural equation modelling (PLS-SEM) in this tutorial, SEMinR also includes covariance-based SEMs and covariance-based confirmatory factor analysis. SEMinR has functions named after the major features of a SEM model. For example, consider a PLS-SEM model that has several <em>composite</em> or <em>reflective</em> <em>constructs</em> that are measured by <em>multiple items</em> (e.g., survey questions), with causal <em>paths</em> <em>from</em> a certain set of constructs <em>to</em> others. The syntax for this model might look like this:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>measurements <span class="ot">&lt;-</span> <span class="fu">constructs</span>(</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">reflective</span>(<span class="st">"Image"</span>,      <span class="fu">multi_items</span>(<span class="st">"IMAG"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>)),</span>
@@ -226,7 +268,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-bandura2006guide" class="csl-entry" role="doc-biblioentry">
+Bandura, Albert et al. 2006. <span>“Guide for Constructing Self-Efficacy Scales.”</span> <em>Self-Efficacy Beliefs of Adolescents</em> 5 (1): 307–37.
+</div>
+<div id="ref-hair2011pls" class="csl-entry" role="doc-biblioentry">
+Hair, Joe F, Christian M Ringle, and Marko Sarstedt. 2011. <span>“PLS-SEM: Indeed a Silver Bullet.”</span> <em>Journal of Marketing Theory and Practice</em> 19 (2): 139–52.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
