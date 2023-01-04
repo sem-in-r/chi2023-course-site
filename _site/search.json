@@ -42,18 +42,25 @@
     "text": "A CHI 2023 course\nWelcome to the course website for the SEM in HCI course at CHI 2023. The course will be held virtually on April 18th from 3pm CET (when in my timezone?) until 8pm CET.\n\nCourse content\nThis course is an introduction to PLS-SEM for HCI researchers and practitioners that are interested in a streamlined and robust way to work with human data. PLS-SEM will be taught using the open-source SEMinR R package. We will lay out why PLS-SEM might be interesting for your research and how to construct and test a model in SEMinR.\nClick here for more details."
   },
   {
-    "objectID": "index.html#sem-in-hci",
-    "href": "index.html#sem-in-hci",
+    "objectID": "index.html#why-should-i-take-this-course",
+    "href": "index.html#why-should-i-take-this-course",
     "title": "Structural Equation Modeling in HCI Research using SEMinR",
-    "section": "SEM in HCI",
-    "text": "SEM in HCI\nThis course is an introduction to PLS-SEM for HCI researchers and practitioners that are interested in a streamlined and robust way to work with human data. PLS-SEM will be taught using the open-source SEMinR R package. We will lay out why PLS-SEM might be interesting for your research and how to construct and test a model in SEMinR. Click here for more details.\n\nWhy should I take this course?\nPLS-SEM or partial least squares structural equation modelling is a powerful method to build and test models for your data. This method allows the researcher to simultaneously test the validity of their measurement instrument (e.g., the survey) and the relationship between model variables, e.g., perceptions, attitudes, and behavior. A further advantage is that PLS-SEM is comparatively robust to small samples and non-parametric data, both issues that often occur in HCI research. Click here for more details.\n\n\nInstructors\nThe course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray. The instructors include key authors, maintainers, and contributors of the SEMinR package. For more details go here."
+    "section": "Why should I take this course?",
+    "text": "Why should I take this course?\nPLS-SEM or partial least squares structural equation modelling is a powerful method to build and test models for your data. This method allows the researcher to simultaneously test the validity of their measurement instrument (e.g., the survey) and the relationship between model variables, e.g., perceptions, attitudes, and behavior. A further advantage is that PLS-SEM is comparatively robust to small samples and non-parametric data, both issues that often occur in HCI research.\nClick here for more details.\n\nIs this course for me?\nThe intended audiences of the course are: Academic researchers including Masters and doctoral students as well as industry researchers that are interested in thoroughly understanding their users including the users’ motivations and behavior."
   },
   {
-    "objectID": "index.html#register",
-    "href": "index.html#register",
+    "objectID": "index.html#who-will-be-my-teachers",
+    "href": "index.html#who-will-be-my-teachers",
     "title": "Structural Equation Modeling in HCI Research using SEMinR",
-    "section": "Register",
-    "text": "Register"
+    "section": "Who will be my teachers?",
+    "text": "Who will be my teachers?\nThe course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray. The instructors include key authors, maintainers, and contributors of the SEMinR package.\nFor more details go here."
+  },
+  {
+    "objectID": "index.html#how-do-i-register",
+    "href": "index.html#how-do-i-register",
+    "title": "Structural Equation Modeling in HCI Research using SEMinR",
+    "section": "How do I register?",
+    "text": "How do I register?\nWill be added soon."
   },
   {
     "objectID": "soumya.html",
@@ -89,26 +96,5 @@
     "title": "Course Details",
     "section": "",
     "text": "The course will consist of three modules of 75 minutes each, with each module including theoretical input and practical exercises.\n\n\nThe first module will provide a basic introduction to R with RStudio (35 minutes), structural equation modelling in general, and using SEMinR (35 minutes).\n\n\n\nThe second module will provide a deeper understanding of how to construct a model (35 minutes) and introduce estimation techniques using a pre-selected data set (35 minutes).\n\n\n\nThe last module addresses evaluating and reporting models. It will teach how to draw conclusions from results and inform on how to generate sensible models. This module is half lecture (35 minutes) and half exercise (20 minutes + 15 minutes presentation). We will finish by providing follow-up material on reproducibility on YouTube."
-  },
-  {
-    "objectID": "index.html#why-should-i-take-this-course",
-    "href": "index.html#why-should-i-take-this-course",
-    "title": "Structural Equation Modeling in HCI Research using SEMinR",
-    "section": "Why should I take this course?",
-    "text": "Why should I take this course?\nPLS-SEM or partial least squares structural equation modelling is a powerful method to build and test models for your data. This method allows the researcher to simultaneously test the validity of their measurement instrument (e.g., the survey) and the relationship between model variables, e.g., perceptions, attitudes, and behavior. A further advantage is that PLS-SEM is comparatively robust to small samples and non-parametric data, both issues that often occur in HCI research.\nClick here for more details.\n\nIs this course for me?\nThe intended audiences of the course are: Academic researchers including Masters and doctoral students as well as industry researchers that are interested in thoroughly understanding their users including the users’ motivations and behavior."
-  },
-  {
-    "objectID": "index.html#who-will-be-my-teachers",
-    "href": "index.html#who-will-be-my-teachers",
-    "title": "Structural Equation Modeling in HCI Research using SEMinR",
-    "section": "Who will be my teachers?",
-    "text": "Who will be my teachers?\nThe course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray. The instructors include key authors, maintainers, and contributors of the SEMinR package.\nFor more details go here."
-  },
-  {
-    "objectID": "index.html#how-do-i-register",
-    "href": "index.html#how-do-i-register",
-    "title": "Structural Equation Modeling in HCI Research using SEMinR",
-    "section": "How do I register?",
-    "text": "How do I register?\nWill be added soon."
   }
 ]
