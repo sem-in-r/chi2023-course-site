@@ -2,21 +2,21 @@
 title: "Structural Equation Modeling in HCI Research using SEMinR"
 ---
 
-::: {.callout-note}
-This page is still under construction.
-::: 
 
 ## A CHI 2023 course
 Welcome to the course website for the SEM in HCI course at CHI 2023.
 The course will be held virtually on April 18th from 3pm CET ([when in my timezone?](https://time.is/compare/1500_18_Apr_2023_in_Hamburg)) until 8pm CET.
 
+**The course costs 75 USD + 19% VAT.**
 
 #### Course content
 This course is an introduction to PLS-SEM for HCI researchers and practitioners that are interested in a streamlined and robust way to work with human data.
 PLS-SEM will be taught using the open-source [SEMinR](https://sem-in-r.github.io/) R package.
 We will lay out why PLS-SEM might be interesting for your research and how to construct and test a model in SEMinR. 
 
-Click [here](/coursedetails.html) for more details.
+![What is a structural equation model?](img/teaser.png)
+
+Click [here](/coursedetails.html) for more course details.
 
 ## Why should I take this course?
 PLS-SEM or *partial least squares structural equation modelling* is a powerful method to build and test models for your data.
@@ -37,4 +37,18 @@ For more details go [here](/instructors.html).
 
 
 ## How do I register?
-Will be added soon.
+If you are not yet registered for CHI, CLICK THIS LINK: [https://cvent.me/YbG5VD](https://cvent.me/YbG5VD)
+
+1. Scroll to the bottom of the page and select the appropriate category button (Member or Non-Member) to begin your registration. 
+2. Register - fill in all the required information needed for registration to attend CHI 2023.
+3. Proceed to the Optional Items page – select the course from the list and click next at the bottom of the page.
+4. Continue through registration to complete by making a payment and clicking “Submit”. A confirmation email is automatically generated.
+ 
+If you are adding a course to your existing registration, CLICK THIS LINK: [https://cvent.me/YbG5VD](https://cvent.me/YbG5VD).
+
+1. Scroll towards the bottom and click on the “Already Registered” option. Do not begin a new registration if you are already registered for CHI 2023.
+2. Enter your email address and confirmation code – found in your confirmation email.
+3. Click “Login” to proceed, then select “Modify Registration” towards the bottom on the next page.
+4. Proceed through your registration (“Next” button until the Optional Items page) to add the desired course.
+5. Select your course from the list and click “Next” at the bottom.
+6. Follow through to complete the addition by making a payment and clicking “Submit”.
