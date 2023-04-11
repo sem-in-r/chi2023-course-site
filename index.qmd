@@ -52,3 +52,9 @@ If you are adding a course to your existing registration, CLICK THIS LINK: [http
 4. Proceed through your registration (“Next” button until the Optional Items page) to add the desired course.
 5. Select your course from the list and click “Next” at the bottom.
 6. Follow through to complete the addition by making a payment and clicking “Submit”.
+
+
+
+<hr/>
+Last updated `r Sys.time()`
+

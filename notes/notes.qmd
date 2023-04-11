@@ -1,0 +1,68 @@
+---
+title: "Structural Equation Modeling in HCI Research using SEMinR"
+subtitle: "Preperation before the course"
+author: 
+  - name: "André Calero Valdez"
+    affiliation: University of Lübeck
+  - name: "Lilian Kojan"
+    affiliation: University of Lübeck
+  - name: "Nicholas Danks"
+    affiliation: Trinity College Dublin
+  - name: "Soumya Ray"
+    affiliation: National Tsing Hua University
+bibliography: references.bib
+format: 
+  revealjs:
+    #theme: simple
+    logo: "seminrlogo.jpeg"
+    footer: "Structural Equation Modeling in HCI Research using SEMinR"
+    #theme: "my_dark.scss"
+    html-math-method: mathjax
+    code-link: true
+    code-fold: true
+    embed-resources: true
+---
+
+## Welcome to our course
+
+* In this course you will learn the basics of structural equation modeling (SEM)
+* Both in theory and practice 
+* Using free tools
+
+You can find additional information on our [website](https://sem-in-r.github.io/chi2023-course-site/)
+
+## Background information 
+
+* The course takes place on tuesday **18th April 3pm** (UTC+2)
+  * Everything will be virtual on [Zoom](https://zoom.us/j/92380995329?pwd=NkZiaENyTU9rNFE0bk9GTWJQWEY5UT09)
+  * There are 3 sessions of 75 minutes each (theory + practice)
+  * 15 minute breaks between sessions
+* The course is **interactive**  
+  * We will run the course using the posit.cloud service.
+
+
+## Posit.cloud service
+
+* To provide everyone with a development environment we  provide [posit.cloud](https://posit.cloud/) licenses
+* You need to register a **free posit.cloud** account. 
+  * [Register here](https://posit.cloud/plans/free)
+* While working on the course *space*, you will have one month of full unlimited access
+* All necessary materials will be available on posit.cloud
+* You will be able to download all material there
+
+
+## Your Posit.cloud account
+
+* You **must** register a free account, or use your existing account at posit.cloud.
+* Please use the same email-account that you have used for registering at CHI2023
+* If this is not possible send us your email-address via email by clicking [here](mailto:calerovaldez@imis.uni-luebeck.de?subject='CHI2023 SEMINR: MAIL'&Body=My posit.cloud email is:)
+
+## Checklist
+
+* Do you have Zoom set up?
+* Do you have your free posit.cloud account?
+* If it uses a different email account, did you send us the email-account?
+* When does the course happen? [Click here](https://time.is/compare/1500_18_Apr_2023_in_Hamburg)
+
+## Let's start
+Open this [LINK](https://zoom.us/j/92380995329?pwd=NkZiaENyTU9rNFE0bk9GTWJQWEY5UT09) to start your Zoom session **on tuesday**
