@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SEM in HCI Research using SEMinR - Structural Equation Modeling in HCI Research using SEMinR</title>
+<title>SEM in HCI Research using SEMinR - Course notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,7 +60,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SEM in HCI Research using SEMinR</span>
     </a>
   </div>
@@ -80,15 +80,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./whyseminr.html">
+    <a class="nav-link" href="../whyseminr.html">
  <span class="menu-text">Why SEM?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coursedetails.html">
+    <a class="nav-link" href="../coursedetails.html">
  <span class="menu-text">Details</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -97,19 +97,19 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-course-instructors">    
         <li>
-    <a class="dropdown-item" href="./andre.html">
+    <a class="dropdown-item" href="../andre.html">
  <span class="dropdown-text">André Calero Valdez</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./lilian.html">
+    <a class="dropdown-item" href="../lilian.html">
  <span class="dropdown-text">Lilian Kojan</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./nicholas.html">
+    <a class="dropdown-item" href="../nicholas.html">
  <span class="dropdown-text">Nicholas Danks</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./soumya.html">
+    <a class="dropdown-item" href="../soumya.html">
  <span class="dropdown-text">Soumya Ray</span></a>
   </li>  
     </ul>
@@ -125,23 +125,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#a-chi-2023-course" id="toc-a-chi-2023-course" class="nav-link active" data-scroll-target="#a-chi-2023-course">A CHI 2023 course</a></li>
-  <li><a href="#why-should-i-take-this-course" id="toc-why-should-i-take-this-course" class="nav-link" data-scroll-target="#why-should-i-take-this-course">Why should I take this course?</a></li>
-  <li><a href="#who-will-be-my-teachers" id="toc-who-will-be-my-teachers" class="nav-link" data-scroll-target="#who-will-be-my-teachers">Who will be my teachers?</a></li>
-  <li><a href="#how-do-i-register" id="toc-how-do-i-register" class="nav-link" data-scroll-target="#how-do-i-register">How do I register?</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/sem-in-r/chi2023-course-site/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/sem-in-r/chi2023-course-site/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Structural Equation Modeling in HCI Research using SEMinR</h1>
+<h1 class="title">Course notes</h1>
 </div>
 
 
@@ -156,59 +147,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="a-chi-2023-course" class="level2">
-<h2 class="anchored" data-anchor-id="a-chi-2023-course">A CHI 2023 course</h2>
-<p>Welcome to the course website for the SEM in HCI course at CHI 2023. The course will be held virtually on April 18th from 3pm CET (<a href="https://time.is/compare/1500_18_Apr_2023_in_Hamburg">when in my timezone?</a>) until 8pm CET.</p>
-<p><strong>The course costs 75 USD + 19% VAT.</strong></p>
-<section id="course-content" class="level4">
-<h4 class="anchored" data-anchor-id="course-content">Course content</h4>
-<p>This course is an introduction to PLS-SEM for HCI researchers and practitioners that are interested in a streamlined and robust way to work with human data. PLS-SEM will be taught using the open-source <a href="https://sem-in-r.github.io/">SEMinR</a> R package. We will lay out why PLS-SEM might be interesting for your research and how to construct and test a model in SEMinR.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/teaser.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">What is a structural equation model?</figcaption><p></p>
-</figure>
-</div>
-<p>Click <a href="./coursedetails.html">here</a> for more course details.</p>
-</section>
-</section>
-<section id="why-should-i-take-this-course" class="level2">
-<h2 class="anchored" data-anchor-id="why-should-i-take-this-course">Why should I take this course?</h2>
-<p>PLS-SEM or <em>partial least squares structural equation modelling</em> is a powerful method to build and test models for your data. This method allows the researcher to simultaneously test the validity of their measurement instrument (e.g., the survey) and the relationship between model variables, e.g., perceptions, attitudes, and behavior. A further advantage is that PLS-SEM is comparatively robust to small samples and non-parametric data, both issues that often occur in HCI research.</p>
-<p>Click <a href="./whyseminr.html">here</a> for more details.</p>
-<section id="is-this-course-for-me" class="level4">
-<h4 class="anchored" data-anchor-id="is-this-course-for-me">Is this course for me?</h4>
-<p>The intended audiences of the course are: Academic researchers including Masters and doctoral students as well as industry researchers that are interested in thoroughly understanding their users including the users’ motivations and behavior.</p>
-</section>
-</section>
-<section id="who-will-be-my-teachers" class="level2">
-<h2 class="anchored" data-anchor-id="who-will-be-my-teachers">Who will be my teachers?</h2>
-<p>The course will be taught by André Calero Valdez, Lilian Kojan, Nicholas Danks and Soumya Ray. The instructors include key authors, maintainers, and contributors of the SEMinR package.</p>
-<p>For more details go <a href="./instructors.html">here</a>.</p>
-</section>
-<section id="how-do-i-register" class="level2">
-<h2 class="anchored" data-anchor-id="how-do-i-register">How do I register?</h2>
-<p>If you are not yet registered for CHI, CLICK THIS LINK: <a href="https://cvent.me/YbG5VD">https://cvent.me/YbG5VD</a></p>
-<ol type="1">
-<li>Scroll to the bottom of the page and select the appropriate category button (Member or Non-Member) to begin your registration.</li>
-<li>Register - fill in all the required information needed for registration to attend CHI 2023.</li>
-<li>Proceed to the Optional Items page – select the course from the list and click next at the bottom of the page.</li>
-<li>Continue through registration to complete by making a payment and clicking “Submit”. A confirmation email is automatically generated.</li>
-</ol>
-<p>If you are adding a course to your existing registration, CLICK THIS LINK: <a href="https://cvent.me/YbG5VD">https://cvent.me/YbG5VD</a>.</p>
-<ol type="1">
-<li>Scroll towards the bottom and click on the “Already Registered” option. Do not begin a new registration if you are already registered for CHI 2023.</li>
-<li>Enter your email address and confirmation code – found in your confirmation email.</li>
-<li>Click “Login” to proceed, then select “Modify Registration” towards the bottom on the next page.</li>
-<li>Proceed through your registration (“Next” button until the Optional Items page) to add the desired course.</li>
-<li>Select your course from the list and click “Next” at the bottom.</li>
-<li>Follow through to complete the addition by making a payment and clicking “Submit”.</li>
-</ol>
-<hr>
-<p>Last updated 2023-04-11 12:24:00</p>
+<p>You can find all course notes here.</p>
+<p>Before the course starts: <a href="../notes/notes.html">Link</a></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
