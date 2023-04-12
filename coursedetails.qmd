@@ -2,17 +2,30 @@
 title: "Course Details"
 ---
 
+## Schedule
+| Time (CET) | Activity | In your timezone |
+|-|---|-|
+| 3:00 PM | Introduction | [In your timezone](https://time.is/compare/1500_18_Apr_2023_in_Hamburg) |
+| 3:15 PM | [Module 1](#module-1) |  [In your timezone](https://time.is/compare/1515_18_Apr_2023_in_Hamburg)  |
+| 4:40 PM | Break |  [In your timezone](https://time.is/compare/1640_18_Apr_2023_in_Hamburg)  |
+| 4:55 PM | [Module 2](#module-2) |  [In your timezone](https://time.is/compare/1655_18_Apr_2023_in_Hamburg)  |
+| 6:20 PM | Break |  [In your timezone](https://time.is/compare/1820_18_Apr_2023_in_Hamburg)  |
+| 6:35 PM | [Module 3](#module-3) |  [In your timezone](https://time.is/compare/1835_18_Apr_2023_in_Hamburg)  |
+: Course schedule
+
+
 ## Modules
-The course will consist of three modules of 75 minutes each, with each module including theoretical input and practical exercises. 
+First, we will give you a short introduction to the tools used to teach the course.
+Then, the course will consist of three modules of 85 minutes each, with each module including theoretical input and practical exercises. 
 
 ### Module 1
-The first module will provide a basic introduction to R with RStudio (35 minutes), structural equation modelling in general, and using SEMinR (35 minutes). 
+The first module will provide a basic introduction to R with RStudio (40 minutes), structural equation modelling in general, and using SEMinR (45 minutes). 
 
 ### Module 2
-The second module will provide a deeper understanding of how to construct a model (35 minutes) and introduce estimation techniques using a pre-selected data set (35 minutes).
+The second module will provide a deeper understanding of how to construct a model (40 minutes) and introduce estimation techniques using a pre-selected data set (45 minutes).
 
 ### Module 3
 The last module addresses evaluating and reporting models.
 It will teach how to draw conclusions from results and inform on how to generate sensible models. 
-This module is half lecture (35 minutes) and half exercise (20 minutes + 15 minutes presentation).
+This module is half lecture (40 minutes) and half exercise (30 minutes + 15 minutes presentation).
 We will finish by providing follow-up material on reproducibility on YouTube.
