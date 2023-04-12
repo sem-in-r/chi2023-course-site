@@ -1,0 +1,15 @@
+---
+title: "Course notes"
+---
+
+You can find the course notes here.
+
+### Before the course starts
+You should have a look at these course notes before the course start. It contains important information on how to join the course.
+Click [here](/notes/notes.html)
+
+## Course slides
+
+All slides are available inside the posit.cloud workspace for download.
+Access to the workspace is granted by your email-address.
+
