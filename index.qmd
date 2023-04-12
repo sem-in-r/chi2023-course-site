@@ -18,6 +18,8 @@ We will lay out why PLS-SEM might be interesting for your research and how to co
 
 Click [here](/coursedetails.html) for more course details.
 
+Click [here](/notes/index.html) for more the course notes.
+
 ## Why should I take this course?
 PLS-SEM or *partial least squares structural equation modelling* is a powerful method to build and test models for your data.
 This method allows the researcher to simultaneously test the validity of their measurement instrument (e.g., the survey) and the relationship between model variables, e.g., perceptions, attitudes, and behavior.
